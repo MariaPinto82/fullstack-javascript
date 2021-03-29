@@ -2,7 +2,7 @@
 - Una variable es un contenedor de información.
 - Las variables deben definirse bien, para no crear confusiones. 
 */ 
-'use strict';
+'use strict'; // Usar el modo estricto de JavaScript
 
 var pais = "España";
 var continente = "Europa";
