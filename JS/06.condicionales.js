@@ -18,22 +18,49 @@ if(edad1 > edad2){
 
 
 
-var age = 18;
-var nombre = "Maria Pinto";
+//var age = 34;
+//var nombre = "Maria Pinto";
 
 /* Operadores relacionales:
 - Mayor: >
-- Menor: <
-- Mayor o igual que: >=
-- Menor o igual que: <=
+- Menor: <if(age >= 18){
+    // Es mayor de edad
+    console.log(nombre+" tiene "+age+" años, es mayor de edad")
+
+    if(age <= 33){
+        console.log("Todavia eres milenial")
+    }else if(age >= 70){
+        console.log("Ya no eres milenial")
+    }
+
+}else{
+    // Es menor de edad
+    console.log(nombre+" tiene "+age+" años, es menor de edad")
+}
+ que: <=
 - Igual: ==
 - Distinto: !=
 */ 
 
-if(age >= 18){
+var edad = 18;
+var nombre = "Maria"
+
+
+if(edad){
     // Es mayor de edad
-    console.log(nombre+" tiene "+age+" años, es mayor de edad")
+    console.log(nombre+" tiene "+edad+" años, es mayor de edad");
+
+
+    if(edad <= 33){
+        console.log("Todavia eres milenial")
+    }else if(edad >= 70){
+        console.log("Eres un anciano")
+    }else{
+        console.log("Ya no eres milenial")
+    }
+
+
 }else{
-    // Es menor de edad
-    console.log(nombre+" tiene "+age+" años, es menor de edad")
+    // Es menor de edad 
+    console.log(nombre+" tiene "+edad+" años, es menor de edad");
 }
