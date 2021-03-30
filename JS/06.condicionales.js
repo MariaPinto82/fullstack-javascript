@@ -48,3 +48,20 @@ if(age >= 18){
     // Es menor de edad
     console.log(nombre+" tiene "+age+" años, es menor de edad")
 }
+
+
+
+/* Operadores logicos y relacionales:
+- ==  (Es igual);
+- === (Es estrictamente igual);
+- != (Es distinto);
+- !== (Es estrictamente distinto);
+- < (menor);
+- > (mayor);
+- <= (menor o igual que...);
+- >= (mayor o igual que ...);
+- && (Operador and(y));
+- || (Operador Or(o));
+- ! (Operador not(no));
+*/ 
+
