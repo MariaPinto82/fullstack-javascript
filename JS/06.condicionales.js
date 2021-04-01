@@ -65,3 +65,16 @@ if(age >= 18){
 - ! (Operador not(no));
 */ 
 
+// Ejemplo con el opeador de Negacion: 
+var year = 2018;
+if(year != 2016){
+    console.log("El año no es el 2016")
+}
+
+
+// Ejemplo con el operador AND;
+if(year >= 2000 && year <= 2020){
+    console.log("Estamos en la era actual")
+}else{
+    console.log("Estamos en la era portModerna")
+}
