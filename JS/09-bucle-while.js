@@ -8,3 +8,5 @@ while(año <= 2051){
     console.log(año);
     año++;   // Cuando llegue a 2051 el bucle se detendra
 }
+
+// Tambien podemos restar en vez de sumar; e ir quitando años;
