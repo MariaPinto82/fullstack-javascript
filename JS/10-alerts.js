@@ -10,4 +10,4 @@ console.log(mi_resultado);
 // Ingreso de datos
 var mi_resultado2 = prompt("¿Que edad tienes?", 18);
 
-console.log( typeof parseInt(mi_resultado2));
+console.log( typeof parseInt(mi_resultado2)); // Convertimos el string en number
