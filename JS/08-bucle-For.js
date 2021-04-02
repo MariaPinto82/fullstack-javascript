@@ -4,5 +4,7 @@
 
 var numero = 100;
 
-for(i = 0; i < numero; i++);
+for(var i = 0; i < numero; i++){
+    console.log(i) 
+}
 
