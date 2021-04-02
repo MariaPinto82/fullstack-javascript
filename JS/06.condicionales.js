@@ -78,3 +78,11 @@ if(year >= 2000 && year <= 2020){
 }else{
     console.log("Estamos en la era portModerna")
 }
+
+
+// Ejemplo con el operador OR;
+if(year === 2008 || (year >= 2018 && year ===2028)){
+    console.log("El año acaba en 8")
+}else{
+    console.log("Año no registrado")
+}
