@@ -15,7 +15,6 @@ while(año <= 2051){
 }
 
 
-
 // Bucle Do While;
 
 var year = 30;
