@@ -24,13 +24,14 @@ function calculadora(){
     console.log("Hola, soy la calculadora" ) ;
     console.log("si soy yo");
     console.log("cuantas veces quieras")
+
+    return "Hola soy la programadora"
     
 }
 
 
 // Invocar o llamar a la funcion;
-calculadora();
-calculadora();
-calculadora();
-calculadora();
+let resultado = calculadora();
+
+console.log(resultado)
 
