@@ -20,9 +20,10 @@ let resultado = "La suma es: "+(numero1+numero2)+" <br/>"+
                 "La division es: "+(numero1/numero2)+ " <br/>";
 
 
-let resultadoCDM = "La suma es: "+(numero1+numero2)+" \n"+
+let resultadoCDM = "La suma es: "+(numero1+numero2)+" \n"+     //(\n crea un salto de linea en el alert)
                 "La resta es: "+(numero1-numero2)+" \n"+
                 "La multiplicacion es: "+(numero1*numero2)+ " \n"+
                 "La division es: "+(numero1/numero2)+ " \n";               
 document.write(resultado);
 alert(resultadoCDM);
+console.log(resultadoCDM);
