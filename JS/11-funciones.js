@@ -15,3 +15,22 @@
  * las veces que quieras;
  */
 
+
+
+// Defino la funcion
+function calculadora(){
+
+    // Conjunto de instrucciones a ejecutar
+    console.log("Hola, soy la calculadora" ) ;
+    console.log("si soy yo");
+    console.log("cuantas veces quieras")
+    
+}
+
+
+// Invocar o llamar a la funcion;
+calculadora();
+calculadora();
+calculadora();
+calculadora();
+
