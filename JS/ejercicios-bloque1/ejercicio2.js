@@ -3,11 +3,11 @@
 /* Utilizando un bucle, mostrar la suma y la media de los números introducidos,
 hasta introducir un número negativo y ahí mostrar el resultado */
 
-var suma = 0;
-var contador = 0;
+let suma = 0;
+let contador = 0;
 
 do{
-    var numero = parseInt(prompt("Introduce números hasta que metas uno negativo", 0));
+    let numero = parseInt(prompt("Introduce números hasta que metas uno negativo", 0));
 
     if(isNaN(numero)){
         numero = 0;

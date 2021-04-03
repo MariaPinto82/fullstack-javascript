@@ -4,7 +4,7 @@
 - Como una varibale, pero su valor no puede cambiar;
 */ 
 
-var web = "https://mariapinto.es";
+let web = "https://mariapinto.es";
 
 const ip = "192.88.0.12";
 

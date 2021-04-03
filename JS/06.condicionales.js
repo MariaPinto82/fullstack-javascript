@@ -4,8 +4,8 @@
 - Si A es igual a B entonces haz algo
 */
 
-var edad1 = 8;
-var edad2 = 12;
+let edad1 = 8;
+let edad2 = 12;
 
 
 // Si pasa esto
@@ -18,8 +18,8 @@ if(edad1 > edad2){
 
 
 
-var age = 19;
-var nombre = "Maria Pinto";
+let age = 19;
+let nombre = "Maria Pinto";
 
 /* Operadores relacionales:
 - Mayor: >
@@ -66,7 +66,7 @@ if(age >= 18){
 */ 
 
 // Ejemplo con el opeador de Negacion: 
-var year = 2018;
+let year = 2018;
 if(year != 2016){
     console.log("El año no es el 2016")
 }

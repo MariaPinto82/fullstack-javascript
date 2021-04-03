@@ -1,7 +1,7 @@
 'use strict';
 
 // Bucle While
-var año = 2021;
+let año = 2021;
 
 while(año <= 2051){
     // Ejecuta esto
@@ -17,7 +17,7 @@ while(año <= 2051){
 
 // Bucle Do While;
 
-var year = 30;
+let year = 30;
 
 do{
     alert("Solo cuando sea diferente a 18")

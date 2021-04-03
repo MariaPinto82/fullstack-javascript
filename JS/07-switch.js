@@ -2,8 +2,8 @@
 
 // Switch
 
-var edad = 18;
-var imprime = "";
+let edad = 18;
+let imprime = "";
 
 switch(edad){
 

@@ -1,19 +1,19 @@
 'use strict';
 
 // Operadores
-var numero1 = 30;
-var numero2 = 7;
-var operacion = numero1 + numero2;
+let numero1 = 30;
+let numero2 = 7;
+let operacion = numero1 + numero2;
 
 
 alert("El resultado de la operación es: "+operacion);
 
 
 // Tipo de datos
-var numero_entero = 44;  // Tipo number
-var cadena_texto = "Hola que tal, como estas?"  // Tipo String
-var verdadero_o_falso = false;
-var numero_falso = "33";
+let numero_entero = 44;  // Tipo number
+let cadena_texto = "Hola que tal, como estas?"  // Tipo String
+let verdadero_o_falso = false;
+let numero_falso = "33";
 
 
 
