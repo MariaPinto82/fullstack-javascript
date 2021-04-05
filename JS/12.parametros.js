@@ -1,17 +1,36 @@
 'use strict'
 // Parametros
-function calculadora(numero1, numero2) {
+
+function porConsola(numero1, numero2){
     console.log("Suma: " + (numero1 + numero2));
     console.log("Resta: " + (numero1 - numero2));
     console.log("Multiplicacion: " + (numero1 * numero2));
     console.log("Division: " + (numero1 / numero2));
     console.log("*******************************************")
 }
-calculadora(5, 12);
-calculadora(4, 18);
-calculadora(15, 17);
 
-for(let i = 0; i <= 10; i++ ){
-    console.log(i);
-    calculadora(i, 125);
+function porPantalla(numero1, numero2){
+    document.write("Suma: " + (numero1 + numero2));
+    document.write("Resta: " + (numero1 - numero2));
+    document.write("Multiplicacion: " + (numero1 * numero2));
+    document.write("Division: " + (numero1 / numero2));
+    document.write("*******************************************"); 
 }
+
+
+function calculadora(numero1, numero2, mostrar = false){
+    if(mostrar == false){
+        porConsola(numero2, numero2)
+    }else{
+        porPantalla(numero1, numero2)
+    }
+
+    return true;
+}
+
+
+calculadora(1, 4)
+calculadora(2, 5, true)
+calculadora(78, 8, true)
+
+
